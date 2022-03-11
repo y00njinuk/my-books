@@ -1,25 +1,24 @@
 package chapter7;
 
-class Tv {
-    boolean power;      // default: false
-    int channel;        // default: 0
+public class CaptionTvTest {
+    static class Tv {
+        boolean power;      // default: false
+        int channel;        // default: 0
 
-    void power() { power = !power; }
-    void channelUp() { ++channel; }
-    void channelDown() { --channel; }
-}
+        void power() { power = !power; }
+        void channelUp() { ++channel; }
+        void channelDown() { --channel; }
+    }
 
-class CaptionTv extends Tv {
-    boolean caption;    // default: false
-    void displayCaption(String text) {
-        if(caption) {
-            System.out.println(text);
+    static class CaptionTv extends Tv {
+        boolean caption;    // default: false
+        void displayCaption(String text) {
+            if(caption) {
+                System.out.println(text);
+            }
         }
     }
-}
 
-
-public class CaptionTvTest {
     public static void main(String[] args) {
         CaptionTv ctv = new CaptionTv();
         ctv.channel = 10;
