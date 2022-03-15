@@ -6,8 +6,11 @@
 
 
 - JAVA
+  - 자바의 정석 1,2권
   - Java 1.8 SDK 사용
 - Kotlin
+  - Kotlin in Action
   - 코틀린 라이브러리는 KotlinRuntimeLibrary 사용
 - Scala
+  - Programming in Scala 
   - Scala 라이브러리는 scala-sdk-2.12.1 사용
