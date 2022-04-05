@@ -24,8 +24,6 @@ public class PlayerTest {
         int hashcode1 = player.hashCode();
         String[] playerInfo = {"Bobby", "Dalbec", "First Base"};
         int hashcode2 = Arrays.hashCode(playerInfo);
-        Object a = new Object();
-        a.hashCode();
 
         assertEquals(hashcode1, hashcode2);
     }
