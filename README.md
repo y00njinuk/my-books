@@ -9,13 +9,13 @@
 프로젝트의 구성 및 세부내용은 다음과 같다.
 * 자바
   * 자바의 정석 1,2권
-  * java 1.8 사용
+  * java 1.8
 * 코틀린
   * Kotlin in Action
-  * KotlinRuntimeLibrary 사용
+  * KotlinRuntimeLibrary
 * 스칼라
   * Programming in Scala 
-  * scala-sdk-2.12.1 사용
+  * scala-sdk-2.12.1
 * 그 외
   * Junit4 or Junit5 라이브러리 테스트 (.lib/junit)
   * 인터넷에서 찾아본 이것 저것... 실습
