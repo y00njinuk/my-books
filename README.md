@@ -5,6 +5,7 @@
 - JDK 경로는 C:\Program Files\Java\jdk1.8.0_231 으로 설정
 - 관련 라이브러리는 ~\IdeaProjects\my-lab\\.lib 폴더에 저장
 - 컴파일러 출력은 ~\IdeaProjects\my-lab\\.build로 설정
+- 각 모듈의 종속성은 프로젝트 구성에 표기된 라이브러리를 참고해서 설정
 
 프로젝트의 구성 및 세부내용은 다음과 같다.
 * 자바
