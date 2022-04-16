@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * @see dev.to/tlylt/compile-time-type-vs-run-time-type-oop-java-3-5fgn
+ * @see https://dev.to/tlylt/compile-time-type-vs-run-time-type-oop-java-3-5fgn
  */
 class PaperTest {
     @Test
