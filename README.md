@@ -17,5 +17,5 @@
   * Programming in Scala 
   * scala-sdk-2.12.1 사용
 * 그 외
- * Junit4 or Junit5 라이브러리 테스트 (.lib/junit)
- * 인터넷에서 찾아본 이것 저것... 실습
+  * Junit4 or Junit5 라이브러리 테스트 (.lib/junit)
+  * 인터넷에서 찾아본 이것 저것... 실습
