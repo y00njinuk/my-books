@@ -1,4 +1,4 @@
-package chpater14;
+package chapater14;
 
 public class LambdaEx2 {
     @FunctionalInterface

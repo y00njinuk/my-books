@@ -1,4 +1,4 @@
-package chpater14;
+package chapater14;
 
 import java.util.*;
 import java.util.stream.Collectors;
