@@ -1,4 +1,4 @@
-package chapater14;
+package chapter14;
 
 import java.util.function.Function;
 import java.util.function.Predicate;

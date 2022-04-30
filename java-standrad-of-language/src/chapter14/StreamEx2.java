@@ -1,4 +1,4 @@
-package chapater14;
+package chapter14;
 
 import java.io.File;
 import java.util.stream.Stream;

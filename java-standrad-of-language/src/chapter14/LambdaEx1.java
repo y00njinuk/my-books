@@ -1,4 +1,4 @@
-package chapater14;
+package chapter14;
 
 public class LambdaEx1 {
     @FunctionalInterface

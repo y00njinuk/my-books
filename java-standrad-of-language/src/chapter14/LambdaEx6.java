@@ -1,4 +1,4 @@
-package chapater14;
+package chapter14;
 
 import java.util.Arrays;
 import java.util.function.IntConsumer;

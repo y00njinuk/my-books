@@ -1,4 +1,4 @@
-package chapater14;
+package chapter14;
 
 import java.util.Comparator;
 import java.util.IntSummaryStatistics;
