@@ -5,8 +5,8 @@
 - JDK 경로는 C:\Program Files\Java\jdk1.8.0_231 으로 설정
 - 관련 라이브러리는 ~\IdeaProjects\my-lab\\.lib 폴더에 모두 저장
 - 컴파일러 출력은 ~\IdeaProjects\my-lab\\.build로 설정
-- 각 모듈의 종속성은 Dependency List를 참조하여 설정
-
+- 각 서브 모듈의 추가 라이브러리는 Dependency Add List를 참조하여 설정
+---
 프로젝트의 구성 및 세부내용은 다음과 같다.
 * 자바
   * 자바의 정석 1,2권
@@ -18,7 +18,7 @@
 * 그 외
   * 궁금한 내용 직접 실습해보기
 ---
-* Dependency List
+* Dependency Add List
   * scala-sdk-2.12.1
   * junit
   * twitter.finagle.http_2.11
