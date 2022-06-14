@@ -11,6 +11,8 @@
 * Java
   * 자바의 정석 1,2권
   * Effective Java
+    * Java 9 환경에서 실습을 진행 [(Download SDK)](https://www.oracle.com/kr/java/technologies/javase/javase9-archive-downloads.html)
+    * Module SDK: Oracle OpenJDK version 9.0.4
 * Kotlin
   * Kotlin in Action
 * Scala
