@@ -15,12 +15,17 @@ public final class CaseInsensitiveString {
     // Broken - violates symmetry!
     @Override public boolean equals(Object o) {
         if (o instanceof CaseInsensitiveString)
-            return s.equalsIgnoreCase(
-                    ((CaseInsensitiveString) o).s);
+            return s.equalsIgnoreCase(((CaseInsensitiveString) o).s);
         if (o instanceof String)  // One-way interoperability!
             return s.equalsIgnoreCase((String) o);
         return false;
     }
+
+//    // Fixed equals method (Page 40)
+//    @Override public boolean equals(Object o) {
+//        return o instanceof CaseInsensitiveString &&
+//                ((CaseInsensitiveString) o).s.equalsIgnoreCase(s);
+//    }
 
     // Demonstration of the problem (Page 40)
     public static void main(String[] args) {
@@ -30,12 +35,13 @@ public final class CaseInsensitiveString {
         List<CaseInsensitiveString> list = new ArrayList<>();
         list.add(cis);
 
-        System.out.println(list.contains(s));
-    }
+        System.out.println(list.contains(s));   // equals is invoked in String Class.
+                                                // caller is 's'
 
-//    // Fixed equals method (Page 40)
-//    @Override public boolean equals(Object o) {
-//        return o instanceof CaseInsensitiveString &&
-//                ((CaseInsensitiveString) o).s.equalsIgnoreCase(s);
-//    }
+        List<String> list2 = new ArrayList<>();
+        list2.add(s);
+
+        System.out.println(list2.contains(cis));    // equals is invoked CaseInsensitiveString Class.
+                                                    // caller is 'cis'
+    }
 }
