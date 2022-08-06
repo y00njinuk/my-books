@@ -8,6 +8,8 @@
     </content>
     <orderEntry type="jdk" jdkName="9" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="junit" level="project" />
+    <orderEntry type="library" name="junit" level="project" />
+    <orderEntry type="library" name="junit" level="project" />
+    <orderEntry type="library" name="junit" level="project" />
   </component>
 </module>
