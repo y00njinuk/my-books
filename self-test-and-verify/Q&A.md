@@ -1,4 +1,4 @@
-# Q&A
+# Q&java.reflection.A
 - 람다식 내부에서 외부변수를 참조하고 있는 상황에서 외부변수의 값을 변경하면 어떻게 될까? (LambdaExam)
 
 # Reference

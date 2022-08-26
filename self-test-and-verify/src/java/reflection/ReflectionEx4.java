@@ -1,3 +1,5 @@
+package java.reflection;
+
 import java.lang.reflect.Constructor;
 
 /**
@@ -9,7 +11,7 @@ public class ReflectionEx4 {
 
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("ReflectionEx4");
+            Class cls = Class.forName("java.reflection.ReflectionEx4");
             Constructor ctorlist[] = cls.getDeclaredConstructors();
 
             for (Constructor ct : ctorlist) {

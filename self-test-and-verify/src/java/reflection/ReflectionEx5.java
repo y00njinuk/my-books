@@ -1,3 +1,5 @@
+package java.reflection;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
@@ -11,7 +13,7 @@ public class ReflectionEx5 {
 
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("ReflectionEx5");
+            Class cls = Class.forName("java.reflection.ReflectionEx5");
 
             Field fieldlist[] = cls.getDeclaredFields();
 
