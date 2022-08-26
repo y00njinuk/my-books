@@ -11,14 +11,13 @@
 * Java
   * 자바의 정석 1,2권
   * Effective Java
-    * Runtime Environment : Java 9 
-    * Module SDK: Oracle OpenJDK version 9.0.4 [(Download)](https://www.oracle.com/kr/java/technologies/javase/javase9-archive-downloads.html)
+    * Java 9 
+    * SDK: [Oracle OpenJDK version 9.0.4](https://www.oracle.com/kr/java/technologies/javase/javase9-archive-downloads.html)
 * Kotlin
   * Kotlin in Action
 * Scala
   * Programming in Scala
-* 그 외
-  * 궁금한 내용 직접 실습해보기
+* Q&A
 ---
 * Dependencies
   * scala-sdk-2.12.1
@@ -26,4 +25,4 @@
   * twitter.finagle.http_2.11
   * jetbrains.kotlinx.coroutines.core
 * Plugin
-  * Visual VM Launcher [(Download)](https://visualvm.github.io/download.html)
+  * [Visual VM Launcher](https://visualvm.github.io/download.html)
