@@ -1,11 +1,31 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 /**
  * @see https://dev.to/tlylt/compile-time-type-vs-run-time-type-oop-java-3-5fgn
  */
-class PaperTest {
+class CompareWithCompileAndRunTimeTest {
+    class Paper {
+        private int height;
+        private int width;
+
+        Paper(int height, int width) {
+            this.height = height;
+            this.width = width;
+        }
+
+        @Override
+        public boolean equals(Object obj) {
+            System.out.println("A");
+            return this == obj;
+        }
+
+        //Overload
+        public boolean equals(Paper p) {
+            System.out.println("B");
+            return this == p;
+        }
+    }
+
     @Test
     void test() {
         Paper paper = new Paper(297, 140);

@@ -4,7 +4,28 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
-public class PlayerTest {
+public class StringHashCodeTest {
+    public class Player {
+        private String firstName;
+        private String lastName;
+        private String position;
+
+        public Player(String firstName, String lastName, String position) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.position = position;
+        }
+
+        @Override
+        public int hashCode() {
+            int result = 17;
+            result = 31 * result + firstName != null ? firstName.hashCode() : 0;
+            result = 31 * result + lastName != null ? lastName.hashCode() : 0;
+            result = 31 * result + position != null ? position.hashCode() : 0;
+            return result;
+        }
+    }
+
     @Test
     public void testHashCode() {
         Player player = new Player("Eduardo", "Rodriguez", "Pitcher");

@@ -1,10 +1,31 @@
 import org.junit.Test;
 
-import java.util.Collections;
+public class GenericTest {
+    public class Box {
+        private Object object;
 
-import static org.junit.Assert.*;
+        public void set(Object object) {
+            this.object = object;
+        }
 
-public class BoxTest {
+        public Object get() {
+            return object;
+        }
+    }
+
+    public class GBox<T> {
+        // T stands for "Type"
+        private T t;
+
+        public void set(T t) {
+            this.t = t;
+        }
+
+        public T get() {
+            return t;
+        }
+    }
+
     @Test
     public void test() {
         Box box = new Box();
