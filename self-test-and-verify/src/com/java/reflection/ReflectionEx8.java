@@ -1,4 +1,4 @@
-package java.reflection;
+package com.java.reflection;
 
 import java.lang.reflect.Field;
 
@@ -11,7 +11,7 @@ public class ReflectionEx8 {
 
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("java.reflection.ReflectionEx8");
+            Class cls = Class.forName("com.java.reflection.ReflectionEx8");
             Field fld = cls.getField("d");
             ReflectionEx8 f2obj = new ReflectionEx8();
 

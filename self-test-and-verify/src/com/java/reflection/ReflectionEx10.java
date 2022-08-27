@@ -1,4 +1,4 @@
-package java.reflection;
+package com.java.reflection;
 
 import java.lang.reflect.Array;
 

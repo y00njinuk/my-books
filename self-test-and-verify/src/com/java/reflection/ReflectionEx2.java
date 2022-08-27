@@ -1,4 +1,4 @@
-package java.reflection;
+package com.java.reflection;
 
 /**
  * @see <a href="https://www.oracle.com/technical-resources/articles/java/javareflection.html">
@@ -7,7 +7,7 @@ package java.reflection;
 public class ReflectionEx2 {
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("java.reflection.A");
+            Class cls = Class.forName("com.java.reflection.A");
 
             boolean b1 = cls.isInstance(37);
             System.out.println(b1);

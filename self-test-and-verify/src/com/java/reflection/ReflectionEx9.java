@@ -1,19 +1,20 @@
-package java.reflection;
+package com.java.reflection;
 
-import java.lang.reflect.Method;
+import java.lang.reflect.Array;
 
 /**
  * @see <a href="https://www.oracle.com/technical-resources/articles/java/javareflection.html">
  *     https://www.oracle.com/technical-resources/articles/java/javareflection.html</a>
  */
-public class ReflectionEx {
+public class ReflectionEx9 {
     public static void main(String[] args) {
         try {
-            Class c = Class.forName("java.util.Stack");
-            Method m[] = c.getDeclaredMethods();
+            Class cls = Class.forName("java.lang.String");
+            Object arr = Array.newInstance(cls, 10);
+            Array.set(arr, 5, "this is a test");
 
-            for (int i=0; i<m.length; i++)
-                System.out.println(m[i].toString());
+            String s = (String) Array.get(arr, 5);
+            System.out.println(s);
 
         } catch (Throwable e) {
             System.err.println(e);

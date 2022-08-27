@@ -1,4 +1,4 @@
-package java.reflection;
+package com.java.reflection;
 
 import java.lang.reflect.Constructor;
 
@@ -14,7 +14,7 @@ public class ReflectionEx7 {
 
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("java.reflection.ReflectionEx7");
+            Class cls = Class.forName("com.java.reflection.ReflectionEx7");
             Class partypes[] = new Class[2];
             partypes[0] = Integer.TYPE;
             partypes[1] = Integer.TYPE;

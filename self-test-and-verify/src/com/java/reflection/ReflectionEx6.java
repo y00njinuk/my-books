@@ -1,4 +1,4 @@
-package java.reflection;
+package com.java.reflection;
 
 import java.lang.reflect.Method;
 
@@ -11,7 +11,7 @@ public class ReflectionEx6 {
 
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("java.reflection.ReflectionEx6");
+            Class cls = Class.forName("com.java.reflection.ReflectionEx6");
             Class partypes[] = new Class[2];
 
             partypes[0] = Integer.TYPE;
