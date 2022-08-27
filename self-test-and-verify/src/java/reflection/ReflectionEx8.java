@@ -3,7 +3,8 @@ package java.reflection;
 import java.lang.reflect.Field;
 
 /**
- * @see https://www.oracle.com/technical-resources/articles/java/javareflection.html
+ * @see <a href="https://www.oracle.com/technical-resources/articles/java/javareflection.html">
+ *     https://www.oracle.com/technical-resources/articles/java/javareflection.html</a>
  */
 public class ReflectionEx8 {
     public double d;

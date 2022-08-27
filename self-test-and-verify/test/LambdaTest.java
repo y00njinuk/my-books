@@ -8,7 +8,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * @see https://medium.com/swlh/understanding-java-8s-consumer-supplier-predicate-and-function-c1889b9423d
+ * @see <a href="https://medium.com/swlh/understanding-java-8s-consumer-supplier-predicate-and-function-c1889b9423d">
+ *     https://medium.com/swlh/understanding-java-8s-consumer-supplier-predicate-and-function-c1889b9423d</a>
  */
 public class LambdaTest {
     @Test

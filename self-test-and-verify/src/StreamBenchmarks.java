@@ -3,7 +3,8 @@ import java.util.stream.LongStream;
 
 /**
  * Benchmark the execution time to sum numbers from 1 to n values using streams.
- * @see https://blogs.oracle.com/javamagazine/post/java-parallel-streams-performance-benchmark
+ * @see <a href="https://blogs.oracle.com/javamagazine/post/java-parallel-streams-performance-benchmark">
+ *     https://blogs.oracle.com/javamagazine/post/java-parallel-streams-performance-benchmark</a>
  */
 
 public final class StreamBenchmarks {

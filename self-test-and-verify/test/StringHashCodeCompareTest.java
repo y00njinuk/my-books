@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
-public class StringHashCodeTest {
+public class StringHashCodeCompareTest {
     public class Player {
         private String firstName;
         private String lastName;

@@ -4,7 +4,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
 /**
- * @see https://www.oracle.com/technical-resources/articles/java/javareflection.html
+ * @see <a href="https://www.oracle.com/technical-resources/articles/java/javareflection.html">
+ *     https://www.oracle.com/technical-resources/articles/java/javareflection.html</a>
  */
 public class ReflectionEx5 {
     private double d;

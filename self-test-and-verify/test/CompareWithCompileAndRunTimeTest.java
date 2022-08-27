@@ -1,7 +1,8 @@
 import org.junit.jupiter.api.Test;
 
 /**
- * @see https://dev.to/tlylt/compile-time-type-vs-run-time-type-oop-java-3-5fgn
+ * @see <a href="https://dev.to/tlylt/compile-time-type-vs-run-time-type-oop-java-3-5fgn">
+ *     https://dev.to/tlylt/compile-time-type-vs-run-time-type-oop-java-3-5fgn</a>
  */
 class CompareWithCompileAndRunTimeTest {
     class Paper {
