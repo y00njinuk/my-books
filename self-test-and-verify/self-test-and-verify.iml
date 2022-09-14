@@ -8,10 +8,10 @@
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="junit" level="project" />
-    <orderEntry type="library" name="junit" level="project" />
-    <orderEntry type="library" name="junit" level="project" />
     <orderEntry type="library" name="finagle" level="project" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="library" name="scala-sdk-2.12.3" level="application" />
+    <orderEntry type="library" name="msgpack.core" level="project" />
+    <orderEntry type="library" name="commons.codec" level="project" />
   </component>
 </module>
