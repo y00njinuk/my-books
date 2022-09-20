@@ -15,5 +15,7 @@
     <orderEntry type="library" name="thrift" level="project" />
     <orderEntry type="library" name="protobuf" level="project" />
     <orderEntry type="library" name="codec" level="project" />
+    <orderEntry type="library" name="apache.avro" level="project" />
+    <orderEntry type="library" name="apache.avro.tools" level="project" />
   </component>
 </module>
