@@ -19,10 +19,5 @@
   * Programming in Scala
 * Q&A
 ---
-* Dependencies
-  * scala-sdk-2.12.1
-  * junit
-  * twitter.finagle.http_2.11
-  * jetbrains.kotlinx.coroutines.core
 * Plugin
   * [Visual VM Launcher](https://visualvm.github.io/download.html)
