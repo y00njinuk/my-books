@@ -1,23 +1,24 @@
-package com.java.reflection;
-
-import java.lang.reflect.Array;
+package reflection;
 
 /**
  * @see <a href="https://www.oracle.com/technical-resources/articles/java/javareflection.html">
  *     https://www.oracle.com/technical-resources/articles/java/javareflection.html</a>
  */
-public class ReflectionEx9 {
+public class ReflectionEx2 {
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("java.lang.String");
-            Object arr = Array.newInstance(cls, 10);
-            Array.set(arr, 5, "this is a test");
+            Class cls = Class.forName("reflection.A");
 
-            String s = (String) Array.get(arr, 5);
-            System.out.println(s);
+            boolean b1 = cls.isInstance(37);
+            System.out.println(b1);
+
+            boolean b2 = cls.isInstance(new A());
+            System.out.println(b2);
 
         } catch (Throwable e) {
             System.err.println(e);
         }
     }
 }
+
+class A {}

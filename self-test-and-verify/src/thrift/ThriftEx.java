@@ -1,6 +1,6 @@
-package com.java.thrift;
+package thrift;
 
-import com.java.thrift.schema.Person;
+import thrift.schema.Person;
 import org.apache.commons.codec.binary.Hex;
 import org.apache.thrift.TException;
 import org.apache.thrift.TSerializer;

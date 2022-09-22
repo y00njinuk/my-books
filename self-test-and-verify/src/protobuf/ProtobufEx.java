@@ -1,11 +1,11 @@
-package com.java.protobuf;
+package protobuf;
 
 import org.apache.commons.codec.binary.Hex;
-import com.java.protobuf.*;
+import protobuf.schema.Person;
 
 public class ProtobufEx {
     public static void main(String[] args) {
-        proto.Person person = proto.Person.newBuilder()
+        Person person = Person.newBuilder()
                 .setUserName("Martin")
                 .setFavoriteNumber(1337)
                 .addInterests("daydreaming")

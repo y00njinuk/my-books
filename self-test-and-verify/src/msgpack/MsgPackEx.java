@@ -1,4 +1,4 @@
-package com.java.msgpack;
+package msgpack;
 
 import org.apache.commons.codec.binary.Hex;
 import org.msgpack.core.MessageBufferPacker;

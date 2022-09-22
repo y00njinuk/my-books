@@ -1,4 +1,4 @@
-package com.java.reflection;
+package reflection;
 
 import java.lang.reflect.Method;
 
@@ -15,7 +15,7 @@ public class ReflectionEx3 {
 
     public static void main(String[] args) {
         try {
-            Class cls = Class.forName("com.java.reflection.ReflectionEx3");
+            Class cls = Class.forName("reflection.ReflectionEx3");
 
             Method methlist[] = cls.getDeclaredMethods();
             for (Method m : methlist) {
