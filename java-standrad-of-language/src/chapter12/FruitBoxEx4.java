@@ -55,6 +55,7 @@ public class FruitBoxEx4 {
     public static void main(String[] args) {
         FruitBox<Apple> appleBox = new FruitBox<Apple>();
         FruitBox<Grape> grapeBox = new FruitBox<Grape>();
+        FruitBox<Fruit> fruitBox = new FruitBox<>();
 
         appleBox.add(new Apple("GreenApple", 300));
         appleBox.add(new Apple("GreenApple", 200));
@@ -64,11 +65,18 @@ public class FruitBoxEx4 {
         grapeBox.add(new Grape("GreenGrape", 300));
         grapeBox.add(new Grape("GreenGrape", 200));
 
+        fruitBox.add(new Apple("GreenApple", 300));
+        fruitBox.add(new Grape("GreenGrape", 400));
+        fruitBox.add(new Apple("GreenApple", 200));
+        fruitBox.add(new Grape("GreenGrape", 300));
+
         Collections.sort(appleBox.getList(), new AppleComp());
         Collections.sort(grapeBox.getList(), new GrapeComp());
+        Collections.sort(fruitBox.getList(), new FruitComp());
 
         System.out.println(appleBox);
         System.out.println(grapeBox);
+        System.out.println(fruitBox);
 
         Collections.sort(appleBox.getList(), new FruitComp());
         Collections.sort(grapeBox.getList(), new FruitComp());
