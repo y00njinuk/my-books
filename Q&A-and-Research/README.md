@@ -1,7 +1,12 @@
 # Q&A
-1. [람다식 내부에서 외부변수를 참조하고 있는 상황에서 외부변수의 값을 변경하면 어떻게 될까?](https://github.com/y00njinuk/my-lab/blob/main/self-test-and-verify/src/LambdaExam.java)
+1. [람다식 내부에서 외부변수를 참조하고 있는 상황에서 외부변수의 값을 변경하면 어떻게 될까?]()
 
 # Research
+1. [데이터 중심 애플리케이션에서 부호화 관련 프레임워크 별로 튜토리얼]()
+2. [자바 스트림 벤치마킹 및 튜토리얼]()
 
-# Reference
-- [자바 스트림 벤치마킹](https://github.com/y00njinuk/my-lab/blob/main/self-test-and-verify/src/StreamBenchmarks.java)
+# Test
+1. [컴파일 타임과 런타임 환경에서 equal 메소드 실행 및 결과 비교]()
+2. [String 클래스의 hashCode 메소드 구현 및 활용]()
+3. [자바 제네릭 튜토리얼]()
+4. [자바 람다 튜토리얼]()
