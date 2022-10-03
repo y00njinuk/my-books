@@ -17,7 +17,7 @@
   * Kotlin in Action
 * Scala
   * Programming in Scala
-* Q&A
+* Q&A and Research
 ---
 * Plugin
   * [Visual VM Launcher](https://visualvm.github.io/download.html)
