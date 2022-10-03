@@ -1,3 +1,5 @@
+package tutorial;
+
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -11,7 +13,7 @@ import java.util.stream.Stream;
  * @see <a href="https://medium.com/swlh/understanding-java-8s-consumer-supplier-predicate-and-function-c1889b9423d">
  *     https://medium.com/swlh/understanding-java-8s-consumer-supplier-predicate-and-function-c1889b9423d</a>
  */
-public class LambdaTest {
+public class LambdaTutorialTest {
     @Test
     public void whenNamesPresentConsumeAll(){
         Consumer<String> printConsumer = t -> System.out.println(t);

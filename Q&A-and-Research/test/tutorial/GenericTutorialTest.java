@@ -1,6 +1,8 @@
+package tutorial;
+
 import org.junit.Test;
 
-public class GenericTest {
+public class GenericTutorialTest {
     public class Box {
         private Object object;
 
