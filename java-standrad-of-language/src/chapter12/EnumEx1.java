@@ -1,12 +1,22 @@
 package chapter12;
 
-enum Direction { EAST, SOUTH, WEST, NORTH }
+enum Direction { EAST(1), SOUTH(2), WEST(3), NORTH(4);
+    // define variable.
+
+    Direction(int i) {
+        // implemented code.
+    }
+}
 
 public class EnumEx1 {
     public static void main(String[] args) {
-        AdvancedDirection d1 = AdvancedDirection.EAST;
-        AdvancedDirection d2 = AdvancedDirection.valueOf("WEST");
-        AdvancedDirection d3 = Enum.valueOf(AdvancedDirection.class, "EAST");
+        Direction d1 = Direction.EAST;
+        Direction d2 = Direction.valueOf("WEST");
+        Direction d3 = Enum.valueOf(Direction.class, "NORTH");
+
+        System.out.println(d1);
+        System.out.println(d2);
+        System.out.println(d3);
 
         switch(d1) {
             case EAST: System.out.println("EAST"); break;
@@ -16,9 +26,9 @@ public class EnumEx1 {
             default: System.out.println("Invalid"); break;
         }
 
-        AdvancedDirection[] dArr = AdvancedDirection.values();
+        Direction[] dArr = Direction.values();
 
-        for(AdvancedDirection d: dArr)
+        for(Direction d: dArr)
             System.out.printf("%s=%d\n", d.name(), d.ordinal());
     }
 }
