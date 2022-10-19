@@ -3,6 +3,12 @@ import java.util.*;
 
 // Generic union method and program to exercise it  (Pages 135-6)
 public class Union {
+    // Raw method
+    public static Set rawUnion(Set s1, Set s2) {
+        Set result = new HashSet(s1);
+        result.addAll(s2);
+        return result;
+    }
 
     // Generic method
     public static <E> Set<E> union(Set<E> s1, Set<E> s2) {
