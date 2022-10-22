@@ -20,7 +20,7 @@ public class PickTwo {
     }
 
     public static void main(String[] args) {
-        String[] attributes = pickTwo("Good", "Fast", "Cheap");
+        String[] attributes = (String[]) pickTwo("Good", "Fast", "Cheap");
         System.out.println(Arrays.toString(attributes));
     }
 }
