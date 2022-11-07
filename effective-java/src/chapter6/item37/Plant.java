@@ -32,8 +32,9 @@ class Plant {
         };
 
         // Using ordinal() to index into an array - DON'T DO THIS!  (Page 171)
-        Set<Plant>[] plantsByLifeCycleArr =
-                (Set<Plant>[]) new Set[Plant.LifeCycle.values().length];
+        // Unchecked assignment: 'java.util.Set[]' to 'java.util.Set<chapter6.item37.Plant>[]'
+        Set<Plant>[] plantsByLifeCycleArr = (Set<Plant>[]) new Set[Plant.LifeCycle.values().length];
+
         for (int i = 0; i < plantsByLifeCycleArr.length; i++)
             plantsByLifeCycleArr[i] = new HashSet<>();
         for (Plant p : garden)
@@ -45,8 +46,7 @@ class Plant {
         }
 
         // Using an EnumMap to associate data with an enum (Page 172)
-        Map<Plant.LifeCycle, Set<Plant>> plantsByLifeCycle =
-                new EnumMap<>(Plant.LifeCycle.class);
+        Map<Plant.LifeCycle, Set<Plant>> plantsByLifeCycle = new EnumMap<>(Plant.LifeCycle.class);
         for (Plant.LifeCycle lc : Plant.LifeCycle.values())
             plantsByLifeCycle.put(lc, new HashSet<>());
         for (Plant p : garden)
