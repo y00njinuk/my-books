@@ -1,8 +1,0 @@
-@namespace("com.java.avro")
-protocol PersonProtocol {
-  record Person {
-    string                userName;
-    union { null, long }  favoriteNumber = null;
-    array<string>         interests;
-  }
-}
